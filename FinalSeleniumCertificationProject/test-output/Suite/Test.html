@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 20 14:15:46 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68950 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.SignupRunner.runScenario()'><b>runScenario</b><br>Test class: runner.SignupRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Existing user exits", "Signup on DemoBlaze"</td>
+<td></td>
+<td>5</td>
+<td>runner.SignupRunner@8297b3a</td></tr>
+<tr>
+<td title='runner.AdditemRunner.runScenario()'><b>runScenario</b><br>Test class: runner.AdditemRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add an item into cart", "Verify an item is added to cart"<br/>
+<a href="#Output-1942258276" onClick='toggleBox("Output-1942258276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1942258276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1942258276">
+Opening demoblaze through google browser<br/>
+Selecting samsung galaxy s6<br/>
+Adding samsung galaxy to cart<br/>
+Alert message: Product added<br/>
+Confirmation displayed and cliced on ok<br/>
+Viewing the added item in the cart<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.AdditemRunner@4c178a76</td></tr>
+<tr>
+<td title='runner.SignupRunner.runScenario()'><b>runScenario</b><br>Test class: runner.SignupRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Existing user exits", "Signup on DemoBlaze"</td>
+<td></td>
+<td>5</td>
+<td>runner.SignupRunner@8297b3a</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User logs into the page with correct username and password", "To verify  that the user enters the valid user name"</td>
+<td></td>
+<td>0</td>
+<td>runner.LoginRunner@2362f559</td></tr>
+<tr>
+<td title='runner.SignupRunner.runScenario()'><b>runScenario</b><br>Test class: runner.SignupRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Existing user exits", "Signup on DemoBlaze"</td>
+<td></td>
+<td>0</td>
+<td>runner.SignupRunner@8297b3a</td></tr>
+<tr>
+<td title='runner.OpenUrlRunner.runScenario()'><b>runScenario</b><br>Test class: runner.OpenUrlRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify the URL for Demo_blaze on Google browser", "Verify demoblaze website through googble browser"<br/>
+<a href="#Output-1227438915" onClick='toggleBox("Output-1227438915", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1227438915" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1227438915">
+Opening demoblaze through google browser<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.OpenUrlRunner@1ff4931d</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enter wrong password", "To verify  that the user enters the valid user name"</td>
+<td></td>
+<td>7</td>
+<td>runner.LoginRunner@2362f559</td></tr>
+<tr>
+<td title='runner.SignupRunner.runScenario()'><b>runScenario</b><br>Test class: runner.SignupRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Existing user exits", "Signup on DemoBlaze"</td>
+<td></td>
+<td>4</td>
+<td>runner.SignupRunner@8297b3a</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enter wrong password", "To verify  that the user enters the valid user name"</td>
+<td></td>
+<td>6</td>
+<td>runner.LoginRunner@2362f559</td></tr>
+<tr>
+<td title='runner.GreetingRunner.runScenario()'><b>runScenario</b><br>Test class: runner.GreetingRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Title of your scenario", "To verify whether the site displays Greetings to the user."</td>
+<td></td>
+<td>6</td>
+<td>runner.GreetingRunner@b2c9a9c</td></tr>
+<tr>
+<td title='runner.SignupRunner.runScenario()'><b>runScenario</b><br>Test class: runner.SignupRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User signs up successfully", "Signup on DemoBlaze"</td>
+<td></td>
+<td>5</td>
+<td>runner.SignupRunner@8297b3a</td></tr>
+<tr>
+<td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify error message when logged in with invalid credentials", "To verify  that the user enters the valid user name"</td>
+<td></td>
+<td>4</td>
+<td>runner.LoginRunner@2362f559</td></tr>
+<tr>
+<td title='runner.PurchaseitemRunner.runScenario()'><b>runScenario</b><br>Test class: runner.PurchaseitemRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Purchase item", "Purchase item from cart which was added"<br/>
+<a href="#Output-1195854264" onClick='toggleBox("Output-1195854264", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1195854264" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1195854264">
+Opening demoblaze through google browser<br/>
+Alert message: Product added<br/>
+Item added to cart<br/>
+Viewing the added item in the cart<br/>
+Placing order for the item added in the cart<br/>
+Filling up the details for order confirmation<br/>
+Item purchased<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>runner.PurchaseitemRunner@fa4c865</td></tr>
+</table><p>
+</body>
+</html>
